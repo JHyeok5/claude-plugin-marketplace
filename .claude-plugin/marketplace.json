@@ -1,39 +1,60 @@
 {
-  "name": "JHyeok5 Plugins",
-  "description": "Production-grade Claude Code plugins — AI SEO, i18n Audit, Netlify Functions",
+  "name": "jhyeok5-plugins",
+  "owner": {
+    "name": "JHyeok5"
+  },
+  "metadata": {
+    "description": "Production-grade Claude Code plugins — AI SEO, i18n Audit, Netlify Functions",
+    "version": "1.0.0"
+  },
   "plugins": [
     {
       "name": "ai-seo",
       "description": "AEO/GEO optimization for AI search engines — make websites discoverable by ChatGPT, Claude, Perplexity, and Google AI Overview",
       "source": {
-        "type": "github",
-        "owner": "JHyeok5",
-        "repo": "claude-plugin-ai-seo"
+        "source": "github",
+        "repo": "JHyeok5/claude-plugin-ai-seo"
       },
       "version": "1.0.0",
-      "keywords": ["seo", "aeo", "geo", "ai-search", "llms-txt", "structured-data"]
+      "license": "MIT",
+      "keywords": ["seo", "aeo", "geo", "ai-search", "llms-txt", "structured-data"],
+      "category": "web-development",
+      "author": {
+        "name": "JHyeok5"
+      },
+      "repository": "https://github.com/JHyeok5/claude-plugin-ai-seo"
     },
     {
       "name": "i18n-audit",
       "description": "Multi-locale i18n consistency checker — find missing keys, untranslated values, hardcoded strings, and placeholder mismatches across any framework",
       "source": {
-        "type": "github",
-        "owner": "JHyeok5",
-        "repo": "claude-plugin-i18n-audit"
+        "source": "github",
+        "repo": "JHyeok5/claude-plugin-i18n-audit"
       },
       "version": "1.0.0",
-      "keywords": ["i18n", "l10n", "internationalization", "localization", "translation"]
+      "license": "MIT",
+      "keywords": ["i18n", "l10n", "internationalization", "localization", "translation"],
+      "category": "code-quality",
+      "author": {
+        "name": "JHyeok5"
+      },
+      "repository": "https://github.com/JHyeok5/claude-plugin-i18n-audit"
     },
     {
       "name": "netlify-functions",
       "description": "Scaffold and implement production-ready Netlify Functions — handler patterns, CORS, auth, webhooks, cron, error handling, TypeScript",
       "source": {
-        "type": "github",
-        "owner": "JHyeok5",
-        "repo": "claude-plugin-netlify-functions"
+        "source": "github",
+        "repo": "JHyeok5/claude-plugin-netlify-functions"
       },
       "version": "1.0.0",
-      "keywords": ["netlify", "serverless", "functions", "api", "backend", "webhooks"]
+      "license": "MIT",
+      "keywords": ["netlify", "serverless", "functions", "api", "backend", "webhooks"],
+      "category": "backend",
+      "author": {
+        "name": "JHyeok5"
+      },
+      "repository": "https://github.com/JHyeok5/claude-plugin-netlify-functions"
     }
   ]
 }

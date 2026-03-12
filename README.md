@@ -8,20 +8,20 @@ Claude Code plugin marketplace with production-grade tools for web development.
 ## Add This Marketplace
 
 ```bash
-claude plugin marketplace add JHyeok5/claude-plugin-marketplace
+/plugin marketplace add JHyeok5/claude-plugin-marketplace
 ```
 
 ## Available Plugins
 
 | Plugin | Description | Install |
 |--------|-------------|---------|
-| **[ai-seo](https://github.com/JHyeok5/claude-plugin-ai-seo)** | AEO/GEO optimization for AI search engines | `/plugin install ai-seo@JHyeok5` |
-| **[i18n-audit](https://github.com/JHyeok5/claude-plugin-i18n-audit)** | Multi-locale consistency checker (11 frameworks) | `/plugin install i18n-audit@JHyeok5` |
-| **[netlify-functions](https://github.com/JHyeok5/claude-plugin-netlify-functions)** | Serverless API patterns with auto-detection | `/plugin install netlify-functions@JHyeok5` |
+| **[ai-seo](https://github.com/JHyeok5/claude-plugin-ai-seo)** | AEO/GEO optimization for AI search engines | `/plugin install ai-seo@jhyeok5-plugins` |
+| **[i18n-audit](https://github.com/JHyeok5/claude-plugin-i18n-audit)** | Multi-locale consistency checker (11 frameworks) | `/plugin install i18n-audit@jhyeok5-plugins` |
+| **[netlify-functions](https://github.com/JHyeok5/claude-plugin-netlify-functions)** | Serverless API patterns with auto-detection | `/plugin install netlify-functions@jhyeok5-plugins` |
 
 ## Plugin Highlights
 
-### All plugins feature:
+All plugins feature:
 
 - **Project Adaptation** — creates config on first run, learns your project patterns
 - **Progress Tracking** — history with delta comparison across runs
@@ -33,12 +33,12 @@ claude plugin marketplace add JHyeok5/claude-plugin-marketplace
 
 ```bash
 # 1. Add marketplace
-claude plugin marketplace add JHyeok5/claude-plugin-marketplace
+/plugin marketplace add JHyeok5/claude-plugin-marketplace
 
 # 2. Install any plugin
-/plugin install i18n-audit@JHyeok5
+/plugin install i18n-audit@jhyeok5-plugins
 
-# 3. Restart Claude Code
+# 3. Restart Claude Code to activate hooks
 
 # 4. Use naturally
 "Check if all translations are complete"

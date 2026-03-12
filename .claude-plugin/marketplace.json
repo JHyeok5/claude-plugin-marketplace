@@ -1,0 +1,39 @@
+{
+  "name": "JHyeok5 Plugins",
+  "description": "Production-grade Claude Code plugins — AI SEO, i18n Audit, Netlify Functions",
+  "plugins": [
+    {
+      "name": "ai-seo",
+      "description": "AEO/GEO optimization for AI search engines — make websites discoverable by ChatGPT, Claude, Perplexity, and Google AI Overview",
+      "source": {
+        "type": "github",
+        "owner": "JHyeok5",
+        "repo": "claude-plugin-ai-seo"
+      },
+      "version": "1.0.0",
+      "keywords": ["seo", "aeo", "geo", "ai-search", "llms-txt", "structured-data"]
+    },
+    {
+      "name": "i18n-audit",
+      "description": "Multi-locale i18n consistency checker — find missing keys, untranslated values, hardcoded strings, and placeholder mismatches across any framework",
+      "source": {
+        "type": "github",
+        "owner": "JHyeok5",
+        "repo": "claude-plugin-i18n-audit"
+      },
+      "version": "1.0.0",
+      "keywords": ["i18n", "l10n", "internationalization", "localization", "translation"]
+    },
+    {
+      "name": "netlify-functions",
+      "description": "Scaffold and implement production-ready Netlify Functions — handler patterns, CORS, auth, webhooks, cron, error handling, TypeScript",
+      "source": {
+        "type": "github",
+        "owner": "JHyeok5",
+        "repo": "claude-plugin-netlify-functions"
+      },
+      "version": "1.0.0",
+      "keywords": ["netlify", "serverless", "functions", "api", "backend", "webhooks"]
+    }
+  ]
+}
